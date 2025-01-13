@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Australian Tax Calculator</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <h1>Australian Tax Calculator 2024-25</h1>
+      <div class="input-group">
+        <label for="income">Annual Income Before Tax (Gross)</label>
+        <input type="text" id="income" placeholder="Enter your annual income" />
+        <div class="info-text">
+          Enter your total income before any tax deductions
+        </div>
+      </div>
+      <button onclick="calculateTax()">Calculate Tax</button>
+      <div id="results"></div>
+    </div>
+    <script src="js/calculator.js"></script>
+  </body>
+</html>
